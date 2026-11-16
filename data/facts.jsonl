@@ -1,0 +1,448 @@
+{"entity": "Lumora Systems", "attribute": "founded", "value": "2007", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "ceo", "value": "Kofi Novak", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "sector", "value": "precision agriculture", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "revenue_2024", "value": "2817.4", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "yoy_growth", "value": "44.1", "in_corpus": true}
+{"entity": "Lumora Systems", "attribute": "employees", "value": "7964", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "founded", "value": "1985", "in_corpus": false}
+{"entity": "Wexford Systems", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "ceo", "value": "Mei Haddad", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "sector", "value": "semiconductor test equipment", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "revenue_2024", "value": "1115.5", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "yoy_growth", "value": "-3.4", "in_corpus": true}
+{"entity": "Wexford Systems", "attribute": "employees", "value": "11573", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "founded", "value": "2007", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "ceo", "value": "Hana Novak", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "revenue_2024", "value": "2302.0", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "yoy_growth", "value": "13.8", "in_corpus": true}
+{"entity": "Yarrow Systems", "attribute": "employees", "value": "2898", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "founded", "value": "2014", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "hq", "value": "Rotterdam", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "ceo", "value": "Ingrid Raman", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "revenue_2024", "value": "1062.7", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "yoy_growth", "value": "9.1", "in_corpus": true}
+{"entity": "Quillon Bio", "attribute": "employees", "value": "5325", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "founded", "value": "1998", "in_corpus": false}
+{"entity": "Quillon Dynamics", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "ceo", "value": "Elena Morales", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "revenue_2024", "value": "1687.1", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "yoy_growth", "value": "6.0", "in_corpus": true}
+{"entity": "Quillon Dynamics", "attribute": "employees", "value": "586", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "founded", "value": "1983", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "hq", "value": "Raleigh", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "ceo", "value": "Arjun Ferreira", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "revenue_2024", "value": "1926.3", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "yoy_growth", "value": "4.6", "in_corpus": true}
+{"entity": "Veltrix Systems", "attribute": "employees", "value": "4415", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "founded", "value": "1976", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "hq", "value": "Pune", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "ceo", "value": "Grace Raman", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "revenue_2024", "value": "1507.6", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "yoy_growth", "value": "16.4", "in_corpus": true}
+{"entity": "Jessamine Energy", "attribute": "employees", "value": "14542", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "founded", "value": "2003", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "hq", "value": "Monterrey", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "ceo", "value": "Priya Okafor", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "sector", "value": "semiconductor test equipment", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "revenue_2024", "value": "233.9", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "yoy_growth", "value": "26.0", "in_corpus": true}
+{"entity": "Sablewood Systems", "attribute": "employees", "value": "3596", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "founded", "value": "1972", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "ceo", "value": "Elena Ito", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "revenue_2024", "value": "1322.3", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "yoy_growth", "value": "21.7", "in_corpus": true}
+{"entity": "Marrow Analytics", "attribute": "employees", "value": "9202", "in_corpus": true}
+{"entity": "Ixora Analytics", "attribute": "founded", "value": "1984", "in_corpus": true}
+{"entity": "Ixora Analytics", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Ixora Analytics", "attribute": "ceo", "value": "Lucas Chen", "in_corpus": true}
+{"entity": "Ixora Analytics", "attribute": "sector", "value": "precision agriculture", "in_corpus": true}
+{"entity": "Ixora Analytics", "attribute": "revenue_2024", "value": "3073.1", "in_corpus": false}
+{"entity": "Ixora Analytics", "attribute": "yoy_growth", "value": "38.6", "in_corpus": false}
+{"entity": "Ixora Analytics", "attribute": "employees", "value": "14784", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "founded", "value": "1981", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "ceo", "value": "Priya Morales", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "revenue_2024", "value": "2139.0", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "yoy_growth", "value": "32.0", "in_corpus": true}
+{"entity": "Umbrel Analytics", "attribute": "employees", "value": "12119", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "founded", "value": "2010", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "hq", "value": "Raleigh", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "ceo", "value": "Arjun Kapoor", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "revenue_2024", "value": "1898.1", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "yoy_growth", "value": "-5.3", "in_corpus": true}
+{"entity": "Brightwell Analytics", "attribute": "employees", "value": "13352", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "founded", "value": "2013", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "hq", "value": "Leeds", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "ceo", "value": "Kofi Chen", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "revenue_2024", "value": "86.7", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "yoy_growth", "value": "4.8", "in_corpus": true}
+{"entity": "Jessamine Dynamics", "attribute": "employees", "value": "2226", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "founded", "value": "1985", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "ceo", "value": "Yuki Kowalski", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "revenue_2024", "value": "2447.0", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "yoy_growth", "value": "34.2", "in_corpus": true}
+{"entity": "Brightwell Labs", "attribute": "employees", "value": "5014", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "founded", "value": "1995", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "hq", "value": "Pune", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "ceo", "value": "Rohan Ferreira", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "revenue_2024", "value": "2177.3", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "yoy_growth", "value": "1.1", "in_corpus": true}
+{"entity": "Fenwick Systems", "attribute": "employees", "value": "3022", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "founded", "value": "1976", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "hq", "value": "Bengaluru", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "ceo", "value": "Tomas Novak", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "revenue_2024", "value": "181.2", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "yoy_growth", "value": "27.6", "in_corpus": true}
+{"entity": "Nexalis Systems", "attribute": "employees", "value": "8701", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "founded", "value": "1979", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "ceo", "value": "Leila Nair", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "sector", "value": "semiconductor test equipment", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "revenue_2024", "value": "903.8", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "yoy_growth", "value": "33.2", "in_corpus": true}
+{"entity": "Zentara Analytics", "attribute": "employees", "value": "622", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "founded", "value": "1995", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "ceo", "value": "Kofi Kapoor", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "revenue_2024", "value": "1871.6", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "yoy_growth", "value": "17.8", "in_corpus": true}
+{"entity": "Fenwick Dynamics", "attribute": "employees", "value": "10205", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "founded", "value": "1976", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "ceo", "value": "Mei Weiss", "in_corpus": false}
+{"entity": "Nexalis Analytics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "revenue_2024", "value": "90.2", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "yoy_growth", "value": "22.6", "in_corpus": true}
+{"entity": "Nexalis Analytics", "attribute": "employees", "value": "5469", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "founded", "value": "1978", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "ceo", "value": "Daniel Brennan", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "revenue_2024", "value": "575.1", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "yoy_growth", "value": "-14.8", "in_corpus": true}
+{"entity": "Lumora Labs", "attribute": "employees", "value": "10721", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "founded", "value": "1998", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "hq", "value": "Denver", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "ceo", "value": "Priya Lindqvist", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "revenue_2024", "value": "868.4", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "yoy_growth", "value": "24.4", "in_corpus": true}
+{"entity": "Yarrow Dynamics", "attribute": "employees", "value": "282", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "founded", "value": "2008", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "ceo", "value": "Omar Morales", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "revenue_2024", "value": "708.1", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "yoy_growth", "value": "20.1", "in_corpus": true}
+{"entity": "Vireo Bio", "attribute": "employees", "value": "12883", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "founded", "value": "2000", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "ceo", "value": "Yuki Raman", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "revenue_2024", "value": "1961.9", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "yoy_growth", "value": "29.0", "in_corpus": true}
+{"entity": "Pellucid Dynamics", "attribute": "employees", "value": "17282", "in_corpus": false}
+{"entity": "Dunmore Dynamics", "attribute": "founded", "value": "1974", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "hq", "value": "Austin", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "ceo", "value": "Omar Sato", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "revenue_2024", "value": "1041.0", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "yoy_growth", "value": "12.1", "in_corpus": true}
+{"entity": "Dunmore Dynamics", "attribute": "employees", "value": "737", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "founded", "value": "2002", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "hq", "value": "Monterrey", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "ceo", "value": "Kofi Ferreira", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "revenue_2024", "value": "299.6", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "yoy_growth", "value": "16.6", "in_corpus": true}
+{"entity": "Jessamine Networks", "attribute": "employees", "value": "2559", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "founded", "value": "1970", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "hq", "value": "Rotterdam", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "ceo", "value": "Priya Brennan", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "revenue_2024", "value": "1848.7", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "yoy_growth", "value": "23.6", "in_corpus": true}
+{"entity": "Pellucid Systems", "attribute": "employees", "value": "4950", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "founded", "value": "2011", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "hq", "value": "Monterrey", "in_corpus": false}
+{"entity": "Brightwell Robotics", "attribute": "ceo", "value": "Nadia Ferreira", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "revenue_2024", "value": "269.6", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "yoy_growth", "value": "-1.9", "in_corpus": true}
+{"entity": "Brightwell Robotics", "attribute": "employees", "value": "17045", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "founded", "value": "1969", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "hq", "value": "Gdansk", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "ceo", "value": "Leila Lindqvist", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "revenue_2024", "value": "648.1", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "yoy_growth", "value": "-10.4", "in_corpus": true}
+{"entity": "Fenwick Analytics", "attribute": "employees", "value": "12796", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "founded", "value": "1991", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "ceo", "value": "Kofi Kowalski", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "revenue_2024", "value": "473.6", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "yoy_growth", "value": "34.2", "in_corpus": true}
+{"entity": "Norvale Robotics", "attribute": "employees", "value": "3812", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "founded", "value": "1993", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "ceo", "value": "Sofia Raman", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "revenue_2024", "value": "703.2", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "yoy_growth", "value": "-6.6", "in_corpus": true}
+{"entity": "Ostrava Analytics", "attribute": "employees", "value": "10477", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "founded", "value": "2013", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "ceo", "value": "Hana Lindqvist", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "revenue_2024", "value": "87.6", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "yoy_growth", "value": "29.4", "in_corpus": true}
+{"entity": "Halcyon Labs", "attribute": "employees", "value": "2249", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "founded", "value": "1971", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "ceo", "value": "Elena Kapoor", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "revenue_2024", "value": "2052.8", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "yoy_growth", "value": "2.1", "in_corpus": true}
+{"entity": "Ixora Networks", "attribute": "employees", "value": "8827", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "founded", "value": "2003", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "hq", "value": "Raleigh", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "ceo", "value": "Omar Okafor", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "revenue_2024", "value": "467.2", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "yoy_growth", "value": "-10.2", "in_corpus": true}
+{"entity": "Kestrel Analytics", "attribute": "employees", "value": "4660", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "founded", "value": "1987", "in_corpus": false}
+{"entity": "Ixora Dynamics", "attribute": "hq", "value": "Hyderabad", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "ceo", "value": "Omar Ito", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "revenue_2024", "value": "832.3", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "yoy_growth", "value": "29.3", "in_corpus": true}
+{"entity": "Ixora Dynamics", "attribute": "employees", "value": "7940", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "founded", "value": "1999", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "hq", "value": "Porto", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "ceo", "value": "Ingrid Ito", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "revenue_2024", "value": "1502.0", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "yoy_growth", "value": "12.2", "in_corpus": true}
+{"entity": "Umbrel Bio", "attribute": "employees", "value": "14864", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "founded", "value": "1988", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "ceo", "value": "Hana Mensah", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "revenue_2024", "value": "607.3", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "yoy_growth", "value": "0.5", "in_corpus": true}
+{"entity": "Kestrel Dynamics", "attribute": "employees", "value": "778", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "founded", "value": "1999", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "ceo", "value": "Priya Haddad", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "sector", "value": "semiconductor test equipment", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "revenue_2024", "value": "994.1", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "yoy_growth", "value": "43.1", "in_corpus": true}
+{"entity": "Galvan Analytics", "attribute": "employees", "value": "16615", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "founded", "value": "1969", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "hq", "value": "Monterrey", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "ceo", "value": "Elena Ferreira", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "revenue_2024", "value": "376.1", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "yoy_growth", "value": "10.5", "in_corpus": true}
+{"entity": "Norvale Labs", "attribute": "employees", "value": "16170", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "founded", "value": "2009", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "hq", "value": "Rotterdam", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "ceo", "value": "Ingrid Haddad", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "revenue_2024", "value": "2826.3", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "yoy_growth", "value": "38.7", "in_corpus": true}
+{"entity": "Zentara Energy", "attribute": "employees", "value": "1415", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "founded", "value": "2001", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "hq", "value": "Bengaluru", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "ceo", "value": "Hana Sato", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "revenue_2024", "value": "1956.5", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "yoy_growth", "value": "26.9", "in_corpus": true}
+{"entity": "Jessamine Analytics", "attribute": "employees", "value": "2425", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "founded", "value": "1985", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "hq", "value": "Denver", "in_corpus": false}
+{"entity": "Yarrow Energy", "attribute": "ceo", "value": "Vikram Haddad", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "revenue_2024", "value": "2848.3", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "yoy_growth", "value": "23.7", "in_corpus": true}
+{"entity": "Yarrow Energy", "attribute": "employees", "value": "17365", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "founded", "value": "1973", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "ceo", "value": "Sofia Mensah", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "revenue_2024", "value": "809.1", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "yoy_growth", "value": "25.0", "in_corpus": true}
+{"entity": "Ostrava Robotics", "attribute": "employees", "value": "16272", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "founded", "value": "2000", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "ceo", "value": "Rohan Kowalski", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "revenue_2024", "value": "228.5", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "yoy_growth", "value": "14.8", "in_corpus": true}
+{"entity": "Kestrel Robotics", "attribute": "employees", "value": "6474", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "founded", "value": "1971", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "ceo", "value": "Lucas Okafor", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "revenue_2024", "value": "2137.4", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "yoy_growth", "value": "-6.2", "in_corpus": true}
+{"entity": "Umbrel Labs", "attribute": "employees", "value": "7097", "in_corpus": true}
+{"entity": "Umbrel Systems", "attribute": "founded", "value": "1988", "in_corpus": true}
+{"entity": "Umbrel Systems", "attribute": "hq", "value": "Lyon", "in_corpus": true}
+{"entity": "Umbrel Systems", "attribute": "ceo", "value": "Hana Duarte", "in_corpus": true}
+{"entity": "Umbrel Systems", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Umbrel Systems", "attribute": "revenue_2024", "value": "2562.7", "in_corpus": false}
+{"entity": "Umbrel Systems", "attribute": "yoy_growth", "value": "44.9", "in_corpus": false}
+{"entity": "Umbrel Systems", "attribute": "employees", "value": "6368", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "founded", "value": "1990", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "ceo", "value": "Lucas Lindqvist", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "sector", "value": "medical imaging", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "revenue_2024", "value": "1424.7", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "yoy_growth", "value": "38.1", "in_corpus": true}
+{"entity": "Marrow Dynamics", "attribute": "employees", "value": "11806", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "founded", "value": "1980", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "hq", "value": "Monterrey", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "ceo", "value": "Hana Okafor", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "revenue_2024", "value": "1037.8", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "yoy_growth", "value": "29.2", "in_corpus": true}
+{"entity": "Pellucid Analytics", "attribute": "employees", "value": "13581", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "founded", "value": "2006", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "hq", "value": "Austin", "in_corpus": false}
+{"entity": "Vireo Dynamics", "attribute": "ceo", "value": "Marco Raman", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "revenue_2024", "value": "851.4", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "yoy_growth", "value": "1.3", "in_corpus": true}
+{"entity": "Vireo Dynamics", "attribute": "employees", "value": "10490", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "founded", "value": "1992", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "hq", "value": "Monterrey", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "ceo", "value": "Asha Brennan", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "revenue_2024", "value": "2661.9", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "yoy_growth", "value": "39.8", "in_corpus": true}
+{"entity": "Yarrow Robotics", "attribute": "employees", "value": "16390", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "founded", "value": "1978", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "hq", "value": "Austin", "in_corpus": false}
+{"entity": "Veltrix Robotics", "attribute": "ceo", "value": "Tomas Mensah", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "revenue_2024", "value": "554.3", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "yoy_growth", "value": "-11.1", "in_corpus": true}
+{"entity": "Veltrix Robotics", "attribute": "employees", "value": "17965", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "founded", "value": "1999", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "hq", "value": "Lyon", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "ceo", "value": "Vikram Chen", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "sector", "value": "precision agriculture", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "revenue_2024", "value": "3400.7", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "yoy_growth", "value": "43.3", "in_corpus": true}
+{"entity": "Calyx Energy", "attribute": "employees", "value": "4475", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "founded", "value": "1996", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "hq", "value": "Toronto", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "ceo", "value": "Elena Nair", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "revenue_2024", "value": "622.2", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "yoy_growth", "value": "-0.3", "in_corpus": true}
+{"entity": "Quillon Networks", "attribute": "employees", "value": "6288", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "founded", "value": "1982", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "hq", "value": "Austin", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "ceo", "value": "Rohan Okafor", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "revenue_2024", "value": "2830.4", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "yoy_growth", "value": "39.9", "in_corpus": true}
+{"entity": "Wexford Bio", "attribute": "employees", "value": "9743", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "founded", "value": "1996", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "hq", "value": "Pune", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "ceo", "value": "Daniel Duarte", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "revenue_2024", "value": "1924.1", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "yoy_growth", "value": "31.5", "in_corpus": true}
+{"entity": "Triskel Bio", "attribute": "employees", "value": "11578", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "founded", "value": "2006", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "hq", "value": "Pune", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "ceo", "value": "Arjun Iyer", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "sector", "value": "battery materials", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "revenue_2024", "value": "2472.5", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "yoy_growth", "value": "39.8", "in_corpus": true}
+{"entity": "Elmstead Energy", "attribute": "employees", "value": "10843", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "founded", "value": "2003", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "ceo", "value": "Tomas Weiss", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "revenue_2024", "value": "1293.2", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "yoy_growth", "value": "9.5", "in_corpus": true}
+{"entity": "Harlow Networks", "attribute": "employees", "value": "5184", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "founded", "value": "1971", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "hq", "value": "Melbourne", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "ceo", "value": "Arjun Novak", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "sector", "value": "cybersecurity", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "revenue_2024", "value": "924.8", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "yoy_growth", "value": "19.0", "in_corpus": true}
+{"entity": "Galvan Networks", "attribute": "employees", "value": "13766", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "founded", "value": "1973", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "hq", "value": "Gdansk", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "ceo", "value": "Asha Okafor", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "revenue_2024", "value": "1377.9", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "yoy_growth", "value": "38.0", "in_corpus": true}
+{"entity": "Sablewood Dynamics", "attribute": "employees", "value": "5446", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "founded", "value": "2001", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "ceo", "value": "Ingrid Okafor", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "revenue_2024", "value": "396.5", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "yoy_growth", "value": "-11.0", "in_corpus": true}
+{"entity": "Kestrel Labs", "attribute": "employees", "value": "6586", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "founded", "value": "1973", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "hq", "value": "Lyon", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "ceo", "value": "Grace Novak", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "revenue_2024", "value": "2657.1", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "yoy_growth", "value": "22.2", "in_corpus": true}
+{"entity": "Veltrix Analytics", "attribute": "employees", "value": "7396", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "founded", "value": "1992", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "hq", "value": "Osaka", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "ceo", "value": "Rohan Weiss", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "sector", "value": "logistics software", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "revenue_2024", "value": "834.2", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "yoy_growth", "value": "-6.0", "in_corpus": true}
+{"entity": "Galvan Labs", "attribute": "employees", "value": "1369", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "founded", "value": "1983", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "hq", "value": "Gdansk", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "ceo", "value": "Asha Raman", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "sector", "value": "semiconductor test equipment", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "revenue_2024", "value": "1301.0", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "yoy_growth", "value": "24.5", "in_corpus": true}
+{"entity": "Nexalis Dynamics", "attribute": "employees", "value": "14483", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "founded", "value": "1997", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "ceo", "value": "Arjun Lindqvist", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "sector", "value": "industrial automation", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "revenue_2024", "value": "2691.6", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "yoy_growth", "value": "33.6", "in_corpus": true}
+{"entity": "Umbrel Energy", "attribute": "employees", "value": "2319", "in_corpus": false}
+{"entity": "Wexford Dynamics", "attribute": "founded", "value": "2014", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "hq", "value": "Tallinn", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "ceo", "value": "Mei Chen", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "sector", "value": "payments infrastructure", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "revenue_2024", "value": "1100.6", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "yoy_growth", "value": "-11.7", "in_corpus": true}
+{"entity": "Wexford Dynamics", "attribute": "employees", "value": "4582", "in_corpus": true}
