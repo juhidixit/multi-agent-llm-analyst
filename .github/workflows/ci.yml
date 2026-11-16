@@ -1,0 +1,38 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - run: pip install -e ".[dev,api]"
+      - run: ruff check src tests
+      - run: ruff format --check src tests
+      - run: mypy src
+      - run: pytest
+      # Regression gate: the offline harness must still run end to end on the dev split.
+      - run: analyst eval --split dev --seeds 1 --out /tmp/eval
+
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t analyst .
+      - name: smoke test container
+        run: |
+          docker run -d -p 8000:8000 --name analyst analyst
+          for i in $(seq 1 20); do curl -fs localhost:8000/healthz && break; sleep 1; done
+          curl -fs -X POST localhost:8000/v1/analyze -H 'content-type: application/json' \
+            -d '{"question":"Where is Lumora Systems headquartered?"}'
