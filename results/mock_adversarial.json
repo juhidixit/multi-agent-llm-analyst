@@ -1,0 +1,319 @@
+[
+  {
+    "system": "single_agent",
+    "seeds": 5,
+    "n_questions": 18,
+    "n_claims": 118,
+    "errors": 0,
+    "n_unanswerable_facts": 0,
+    "hallucinated_claim_rate": {
+      "value": 0.2034,
+      "ci95": [
+        0.136,
+        0.2743
+      ],
+      "per_seed": [
+        0.25,
+        0.087,
+        0.25,
+        0.2174,
+        0.2083
+      ]
+    },
+    "fact_recall": {
+      "value": 0.7833,
+      "ci95": [
+        0.6923,
+        0.8609
+      ],
+      "per_seed": [
+        0.75,
+        0.875,
+        0.75,
+        0.75,
+        0.7917
+      ]
+    },
+    "abstention_accuracy": {
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "question_accuracy": {
+      "value": 0.7333,
+      "seed_min": 0.6667,
+      "seed_max": 0.8333
+    },
+    "cost": {
+      "mean_llm_calls": 1,
+      "mean_tokens": 809.42,
+      "mean_cost_usd": 0.0044,
+      "latency_p50_s": 1.3512,
+      "latency_p95_s": 2.2178
+    },
+    "hallucination_examples": [
+      {
+        "entity": "Fenwick Dynamics",
+        "attribute": "revenue_2024",
+        "claimed": "648.1",
+        "gold": "1871.6",
+        "citations": [
+          "yarrow-energy-news"
+        ]
+      },
+      {
+        "entity": "Nexalis Analytics",
+        "attribute": "revenue_2024",
+        "claimed": "1,301.0",
+        "gold": "90.2",
+        "citations": [
+          "nexalis-dynamics-financials"
+        ]
+      },
+      {
+        "entity": "Fenwick Systems",
+        "attribute": "revenue_2024",
+        "claimed": "2,152.9",
+        "gold": "2177.3",
+        "citations": [
+          "fenwick-systems-financials"
+        ]
+      },
+      {
+        "entity": "Fenwick Systems",
+        "attribute": "revenue_2024",
+        "claimed": "2,817.4",
+        "gold": "2177.3",
+        "citations": [
+          "fenwick-analytics-news"
+        ]
+      },
+      {
+        "entity": "Vireo Dynamics",
+        "attribute": "revenue_2024",
+        "claimed": "2,661.9",
+        "gold": "851.4",
+        "citations": [
+          "yarrow-robotics-financials"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "multi_agent",
+    "seeds": 5,
+    "n_questions": 18,
+    "n_claims": 116,
+    "errors": 0,
+    "n_unanswerable_facts": 0,
+    "hallucinated_claim_rate": {
+      "value": 0.0172,
+      "ci95": [
+        0.0,
+        0.0407
+      ],
+      "per_seed": [
+        0.0,
+        0.087,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "fact_recall": {
+      "value": 0.95,
+      "ci95": [
+        0.913,
+        0.9833
+      ],
+      "per_seed": [
+        0.9167,
+        0.875,
+        0.9583,
+        1.0,
+        1.0
+      ]
+    },
+    "abstention_accuracy": {
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "question_accuracy": {
+      "value": 0.9333,
+      "seed_min": 0.8333,
+      "seed_max": 1.0
+    },
+    "cost": {
+      "mean_llm_calls": 3.558,
+      "mean_tokens": 1530.66,
+      "mean_cost_usd": 0.00879,
+      "latency_p50_s": 3.1276,
+      "latency_p95_s": 8.4652
+    },
+    "hallucination_examples": []
+  },
+  {
+    "system": "multi_agent_no_critic",
+    "seeds": 5,
+    "n_questions": 18,
+    "n_claims": 120,
+    "errors": 0,
+    "n_unanswerable_facts": 0,
+    "hallucinated_claim_rate": {
+      "value": 0.1,
+      "ci95": [
+        0.0435,
+        0.16
+      ],
+      "per_seed": [
+        0.0833,
+        0.1667,
+        0.0417,
+        0.0833,
+        0.125
+      ]
+    },
+    "fact_recall": {
+      "value": 0.9,
+      "ci95": [
+        0.84,
+        0.9565
+      ],
+      "per_seed": [
+        0.9167,
+        0.8333,
+        0.9583,
+        0.9167,
+        0.875
+      ]
+    },
+    "abstention_accuracy": {
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "question_accuracy": {
+      "value": 0.8667,
+      "seed_min": 0.7778,
+      "seed_max": 0.9444
+    },
+    "cost": {
+      "mean_llm_calls": 2.33,
+      "mean_tokens": 1025.88,
+      "mean_cost_usd": 0.00612,
+      "latency_p50_s": 2.4208,
+      "latency_p95_s": 4.3382
+    },
+    "hallucination_examples": [
+      {
+        "entity": "Nexalis Analytics",
+        "attribute": "revenue_2024",
+        "claimed": "1,115.5",
+        "gold": "90.2",
+        "citations": [
+          "nexalis-analytics-news"
+        ]
+      },
+      {
+        "entity": "Halcyon Labs",
+        "attribute": "revenue_2024",
+        "claimed": "67.7",
+        "gold": "87.6",
+        "citations": [
+          "halcyon-labs-financials"
+        ]
+      }
+    ]
+  },
+  {
+    "system": "multi_agent_no_guardrails",
+    "seeds": 5,
+    "n_questions": 18,
+    "n_claims": 108,
+    "errors": 0,
+    "n_unanswerable_facts": 0,
+    "hallucinated_claim_rate": {
+      "value": 0.1574,
+      "ci95": [
+        0.1053,
+        0.2151
+      ],
+      "per_seed": [
+        0.0,
+        0.625,
+        0.0,
+        0.0,
+        0.0909
+      ]
+    },
+    "fact_recall": {
+      "value": 0.7583,
+      "ci95": [
+        0.688,
+        0.8182
+      ],
+      "per_seed": [
+        0.9583,
+        0.375,
+        0.75,
+        0.875,
+        0.8333
+      ]
+    },
+    "abstention_accuracy": {
+      "value": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "per_seed": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "question_accuracy": {
+      "value": 0.7,
+      "seed_min": 0.2778,
+      "seed_max": 0.9444
+    },
+    "cost": {
+      "mean_llm_calls": 4.298,
+      "mean_tokens": 2144.0,
+      "mean_cost_usd": 0.01214,
+      "latency_p50_s": 5.3244,
+      "latency_p95_s": 9.4286
+    },
+    "hallucination_examples": []
+  }
+]
