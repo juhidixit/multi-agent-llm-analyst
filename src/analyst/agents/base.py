@@ -69,11 +69,13 @@ class Agent:
                     output_tokens=resp.output_tokens,
                     cost_usd=cost_usd(resp.model, resp.input_tokens, resp.output_tokens),
                     simulated_latency_s=resp.simulated_latency_s,
+                    fallback=resp.fallback,
                 )
             try:
                 return extract_json(resp.text)
             except (ValueError, json.JSONDecodeError) as exc:
                 last_err = exc
+                self.tracer.json_repairs += 1
                 prompt = (
                     prompt + "\n\nYour previous reply was not valid JSON. "
                     "Reply with only the JSON object."

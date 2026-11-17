@@ -33,6 +33,7 @@ class MultiAgentPipeline:
 
     def run(self, question: str, trace_id: str | None = None) -> RunResult:
         tracer = Tracer(trace_id)
+        self.last_tracer = tracer  # set first, so spend is visible even if the run fails
         memory = SharedMemory()
         budget = self.cfg.budget or Budget()
         planner = Planner(self.llm, tracer, budget)

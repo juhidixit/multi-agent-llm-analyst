@@ -1,0 +1,145 @@
+# Runs the evaluation against a real Claude model. Manual only: every run costs money.
+#
+# Needs a repository secret ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions).
+# The key reaches the eval step as an environment variable and nothing else: it is never
+# echoed, written to a file, or passed on a command line, and GitHub masks it in logs.
+name: live-eval
+
+on:
+  workflow_dispatch:
+    inputs:
+      split:
+        description: Question split
+        type: choice
+        options: [test, adversarial, dev]
+        default: test
+      limit:
+        description: First N questions (0 = the whole split)
+        default: "50"
+      systems:
+        description: Comma-separated systems
+        default: single_agent,multi_agent
+      model:
+        description: Claude model ID
+        default: claude-opus-5-5
+      effort:
+        description: Effort level (low, medium, high, xhigh, max)
+        default: low
+      workers:
+        description: Questions run in parallel
+        default: "4"
+      tag:
+        description: Suffix for the results files, e.g. "ablation" (empty for none)
+        default: ""
+      commit_results:
+        description: Commit results/anthropic_* to a branch and open a PR (off = artifact only, for smoke tests)
+        type: boolean
+        default: true
+      results_branch:
+        description: Branch to commit to (created if missing; empty = live-eval/<run id>)
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: live-eval
+  cancel-in-progress: false
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      SPLIT: ${{ inputs.split }}
+      LIMIT: ${{ inputs.limit }}
+      SYSTEMS: ${{ inputs.systems }}
+      MODEL: ${{ inputs.model }}
+      EFFORT: ${{ inputs.effort }}
+      WORKERS: ${{ inputs.workers }}
+      TAG: ${{ inputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev,live]"
+
+      - name: Validate inputs
+        run: |
+          [[ "$LIMIT" =~ ^[0-9]+$ ]] || { echo "::error::limit must be a number"; exit 1; }
+          [[ "$WORKERS" =~ ^[0-9]+$ ]] || { echo "::error::workers must be a number"; exit 1; }
+          [[ "$SYSTEMS" =~ ^[a-z_,]+$ ]] || { echo "::error::bad systems list"; exit 1; }
+          [[ "$MODEL" =~ ^[a-z0-9.-]+$ ]] || { echo "::error::bad model id"; exit 1; }
+          [[ "$EFFORT" =~ ^(low|medium|high|xhigh|max)$ ]] || { echo "::error::bad effort"; exit 1; }
+          [[ "$TAG" =~ ^[a-z0-9_]*$ ]] || { echo "::error::tag: lowercase letters, digits, _"; exit 1; }
+
+      - name: Check the API key secret is set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "::error::Repository secret ANTHROPIC_API_KEY is not set."
+            exit 1
+          fi
+
+      - name: Run live evaluation
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANALYST_PROVIDER: anthropic
+          ANALYST_MODEL: ${{ inputs.model }}
+          ANALYST_EFFORT: ${{ inputs.effort }}
+        run: |
+          args=(--provider anthropic --split "$SPLIT" --systems "$SYSTEMS" --workers "$WORKERS" --trace-dir traces)
+          if [ "$LIMIT" != "0" ]; then args+=(--limit "$LIMIT"); fi
+          if [ -n "$TAG" ]; then args+=(--tag "$TAG"); fi
+          set -o pipefail
+          analyst eval "${args[@]}" 2>&1 | tee eval.log
+
+      - name: Summary
+        if: always()
+        run: |
+          for f in results/anthropic_*.md; do [ -f "$f" ] && cat "$f" | tee -a "$GITHUB_STEP_SUMMARY"; done
+          for f in results/anthropic_*.json; do
+            [ -f "$f" ] && echo "README block for $f:" && analyst readme-table "$f" | tee -a "$GITHUB_STEP_SUMMARY"
+          done
+          true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: live-eval-${{ inputs.split }}${{ inputs.tag && format('-{0}', inputs.tag) || '' }}-${{ github.run_id }}
+          path: |
+            results/anthropic_*
+            traces/
+            eval.log
+          if-no-files-found: warn
+
+      - name: Commit results and open a pull request
+        if: inputs.commit_results
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH: ${{ inputs.results_branch || format('live-eval/{0}', github.run_id) }}
+        run: |
+          stem="anthropic_${SPLIT}${TAG:+_$TAG}"
+          mkdir -p /tmp/out && cp "results/$stem.json" "results/$stem.md" /tmp/out/
+          rm -f results/anthropic_*   # untracked here; may be tracked on the target branch
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          if git fetch --depth=1 origin "$BRANCH" 2>/dev/null; then
+            git checkout -B "$BRANCH" FETCH_HEAD
+          else
+            git checkout -b "$BRANCH"
+          fi
+          cp /tmp/out/* results/
+          git add "results/$stem.json" "results/$stem.md"
+          git commit -m "Live eval results: $stem ($MODEL, effort $EFFORT, limit $LIMIT)"
+          git push origin "$BRANCH"
+          if [ -z "$(gh pr list --head "$BRANCH" --json number --jq '.[].number')" ]; then
+            gh pr create --base "${{ github.event.repository.default_branch }}" --head "$BRANCH" \
+              --title "Live eval results ($MODEL)" \
+              --body "Results from workflow run ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}. Traces and logs are in the run's artifact." \
+              || echo "::warning::Could not open a PR (Settings → Actions → General → allow GitHub Actions to create pull requests). The branch $BRANCH is pushed."
+          fi
