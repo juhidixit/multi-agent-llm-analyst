@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+from typing import Any
 
 from analyst.llm.base import LLMRequest, LLMResponse
 
@@ -19,9 +20,10 @@ class AnthropicLLM:
             raise RuntimeError("pip install 'multi-agent-llm-analyst[live]'") from exc
         # Anthropic() resolves ANTHROPIC_API_KEY (or another configured credential) itself.
         # Keys are never read from files in this repo or passed on the command line.
-        self._client = anthropic.Anthropic(max_retries=3)
+        # Generous retries: live evals run several questions in parallel and can meet 429s.
+        self._client = anthropic.Anthropic(max_retries=6)
         self.model: str = model or os.getenv("ANALYST_MODEL") or "claude-opus-5-5"
-        self.effort = effort or os.getenv("ANALYST_EFFORT", "low")
+        self.effort: Any = effort or os.getenv("ANALYST_EFFORT", "low")
 
     def complete(self, request: LLMRequest) -> LLMResponse:
         response = self._client.beta.messages.create(
@@ -38,9 +40,13 @@ class AnthropicLLM:
         if response.stop_reason == "refusal":
             raise RefusalError(f"model declined the {request.role} request")
         text = "".join(b.text for b in response.content if b.type == "text")
+        # A fallback block marks a switch to the fallback model inside this call. The
+        # response's own ``model`` is the one that served it, so cost uses that model's price.
+        fallback = any(b.type == "fallback" for b in response.content)
         return LLMResponse(
             text=text,
             input_tokens=response.usage.input_tokens,
             output_tokens=response.usage.output_tokens,
-            model=self.model,
+            model=response.model or self.model,
+            fallback=fallback,
         )

@@ -43,6 +43,9 @@ class Tracer:
         self.output_tokens = 0
         self.cost_usd = 0.0
         self.simulated_latency_s = 0.0
+        # Reliability counters for live runs.
+        self.json_repairs = 0  # replies that were not valid JSON and needed a repair retry
+        self.fallbacks = 0  # calls answered by a server-side fallback model after a refusal
 
     @contextmanager
     def span(self, name: str, **attrs: Any) -> Iterator[Span]:
@@ -74,8 +77,10 @@ class Tracer:
         output_tokens: int,
         cost_usd: float,
         simulated_latency_s: float = 0.0,
+        fallback: bool = False,
     ) -> None:
         self.llm_calls += 1
+        self.fallbacks += int(fallback)
         self.input_tokens += input_tokens
         self.output_tokens += output_tokens
         self.cost_usd += cost_usd
@@ -91,6 +96,8 @@ class Tracer:
             )
             if simulated_latency_s:
                 a["simulated_latency_s"] = round(simulated_latency_s, 3)
+            if fallback:
+                a["fallback"] = True
 
     def to_dict(self) -> dict[str, Any]:
         t0 = self.spans[0].start if self.spans else 0.0
@@ -101,6 +108,8 @@ class Tracer:
                 "input_tokens": self.input_tokens,
                 "output_tokens": self.output_tokens,
                 "cost_usd": round(self.cost_usd, 6),
+                "json_repairs": self.json_repairs,
+                "fallbacks": self.fallbacks,
             },
             "spans": [
                 {

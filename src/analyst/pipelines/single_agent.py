@@ -38,6 +38,7 @@ class SingleAgentPipeline:
 
     def run(self, question: str, trace_id: str | None = None) -> RunResult:
         tracer = Tracer(trace_id)
+        self.last_tracer = tracer  # set first, so spend is visible even if the run fails
         agent = Agent(self.llm, tracer, self.budget)
         events: list[str] = []
         valid = {a.value for a in Attribute}

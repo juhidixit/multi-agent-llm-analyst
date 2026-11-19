@@ -29,6 +29,8 @@ class LLMResponse:
     output_tokens: int
     model: str
     simulated_latency_s: float = 0.0
+    # True when a server-side fallback model answered because the primary model declined.
+    fallback: bool = False
 
 
 class LLMClient(Protocol):

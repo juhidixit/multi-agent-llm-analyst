@@ -111,8 +111,13 @@ correlated). Mock runs pool 5 seeds.
 
 ### Live model
 
-**Not run yet.** No live numbers are reported here because none have been measured. To produce
-them:
+**Not run yet.** No live numbers are reported here because none have been measured.
+
+Live runs go through the manual [`live-eval`](.github/workflows/live-eval.yml) workflow
+(Actions → live-eval → Run workflow). It reads the key from the `ANTHROPIC_API_KEY`
+repository secret, runs `analyst eval --provider anthropic`, uploads the results, per-question
+traces and log as an artifact, and opens a pull request with `results/anthropic_<split>.{md,json}`.
+Locally:
 
 ```bash
 export ANTHROPIC_API_KEY=...            # never committed; read from the environment only
@@ -120,10 +125,11 @@ make eval-live LIMIT=50                 # cheap first pass
 make eval-live                          # full held-out test split
 ```
 
-This writes `results/anthropic_test.md` with the same table as below, plus a relative-change
-line for the hallucinated-claim rate. The token counts in the offline run (≈930 tokens per
-question for the baseline, ≈1,900 for multi-agent) come from the real prompts, so they give
-a rough idea of what a live run will spend. The model and effort level are set with
+Each live result records the model, effort, date, total spend, and reliability counters
+(refusals, budget-guard trips, JSON parse failures and repair retries, fallback-model calls).
+`analyst readme-table results/anthropic_test.json` prints the block that goes here, and
+[`tests/test_readme_results.py`](tests/test_readme_results.py) fails if the README's live
+numbers differ from the committed results file. The model and effort level are set with
 `ANALYST_MODEL` and `ANALYST_EFFORT`.
 
 ### Offline pipeline check (simulated LLM)
@@ -170,7 +176,7 @@ What the ablations show about the *system* (these points hold whatever model is 
 git clone https://github.com/juhidixit/multi-agent-llm-analyst && cd multi-agent-llm-analyst
 python -m venv .venv && source .venv/bin/activate
 make install          # pip install -e ".[dev,api,live]"
-make test             # 27 tests
+make test             # unit + integration tests
 make eval             # offline eval → results/mock_test.{md,json}
 ```
 
